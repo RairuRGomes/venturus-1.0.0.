@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Rairu Rufino Gomes" />
+  <link rel="stylesheet" tupe="text/css" media="screen" href="./css/ct_style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <title>Create Team</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="first-header">
+      <h2>Create your team</h2>
+    </header>
+
+    <main>
+      <div class="leftside">
+        <label for="nome">Name*</label>
+        <input type="text" id="nome" required />
+        <label for="description">Description*</label>
+        <input type="text" id="description" required />
+      </div>
+
+      <div class="rigthside">
+        <div>
+          <label for="web">Team Website:</label>
+          <input type="url" id="web" />
+        </div>
+
+        <div>
+          <div>
+            <label>Team type:</label>
+            <input type="checkbox" id="fantasy" name="fantasy" checked />
+            <label for="fantasy">Fantasy</label>
+            <input type="checkbox" id="real" name="real" />
+            <label for="real">Real</label>
+          </div>
+          <div>
+            <label for="pesquisar">Pesquisar</label>
+            <input type="text" id="search" />
+          </div>
+        </div>
+        <section id="playerSection"></section>
+      </div>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

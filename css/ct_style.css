@@ -1,0 +1,93 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f3f7;
+}
+
+.page {
+  max-width: 130rem;
+  padding: 2rem;
+
+  margin: 0 auto;
+}
+
+.first-header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #543979;
+
+  margin-bottom: 5rem;
+}
+
+header {
+  border-bottom: 1px solid #d1d0d0;
+
+  margin-bottom: 2rem;
+}
+
+.wrapper-content {
+  padding: 1rem 3rem;
+}
+
+header .wrapper-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+header img {
+  width: 4rem;
+  height: 4rem;
+}
+
+main {
+  display: flex;
+  gap: 5rem;
+}
+
+main > div {
+  width: 50%;
+}
+
+.leftside,
+.rigthside {
+  display: inline-block;
+  background-color: white;
+  border-radius: 8px;
+}
+.leftside {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.leftside input {
+  width: 50%;
+  margin: 5px 0px;
+  padding: 5px;
+  border: solid 1px #54397988;
+  border-radius: 5px;
+}
+label {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+label::first-letter {
+  color: #543979;
+  font-weight: bold;
+}
